@@ -1,0 +1,19 @@
+
+$theme-colors: (
+    "primary":    lightblue ,
+    "secondary":  pink,
+    "success":   lightgreen,
+    "info":   pink,
+    "warning":   pink,
+    "danger":   pink,
+    "light":   pink,
+    "dark":  pink,
+  );
+
+
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+.pointer{
+  cursor: pointer;
+}
