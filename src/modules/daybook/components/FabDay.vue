@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button class="btn btn-primay">
+    <button class="btn btn-primay" @click="$emit('on:click')" >
       <i :class=" icon" ></i>
     </button>
   </div>
